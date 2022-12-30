@@ -147,7 +147,7 @@ Miku.ev.on('group-participants.update', async (anu) => {
                 grpmembernum = metadata.participants.length
 
             
-                if (anu.action == 'add') {
+                if (anu.action == '') {
                 let WAuserName = num
                 mikutext = `
 Hello @${WAuserName.split("@")[0]},
@@ -166,7 +166,7 @@ ${metadata.desc}
     headerType: 4,
     }
 Miku.sendMessage(anu.id, buttonMessage)
-                } else if (anu.action == 'remove') {
+                } else if (anu.action == '') {
                 	let WAuserName = num
                     mikutext = `
 Sayonara 👋, @${WAuserName.split("@")[0]},
