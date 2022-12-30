@@ -4798,7 +4798,7 @@ case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
       
  const helpmenu = `Konichiwa *${pushname}* Senpai,
 
-I am *Miku Nakano*, a bot developed by *💫ᴄᴀꜱᴛʟᴇᴠɴɪᴀ 先輩🍁*.
+I am *𝐂𝐚𝐬𝐭𝐥𝐞*, a bot developed by *💫ᴄᴀꜱᴛʟᴇᴠɴɪᴀ 先輩🍁*.
 
 🔰 My prefix is:  ${prefix}
 
