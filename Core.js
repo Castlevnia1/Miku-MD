@@ -1641,7 +1641,7 @@ case 'quotesanime': case 'quoteanime': case 'animequote': case 'animequotes':{
         ]
         let buttonMessage = {
             text: `_${hasil.quotes}_\n\nBy '${hasil.karakter}', ${hasil.anime}\n\n- ${hasil.up_at}`,
-            footer: 'Miku',
+            footer: '💫ᴄᴀꜱᴛʟᴇᴠɴɪᴀ 先輩🍁',
             buttons: buttons,
             headerType: 2
         }
