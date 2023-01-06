@@ -4603,10 +4603,7 @@ const { Anime } =require("@shineiichijo/marika")
     details += `*URL:* ${result.url}\n\n`;
     if (result.background !== null)
       details += `*Background:* ${result.background}\n\n`;
-    details += `*Description:* ${result.synopsis.replace(
-      /\[Written by MAL Rewrite]/g,
-      ""
-    )}`
+
 Miku.sendMessage(m.chat,{image:{url:result.images.jpg.large_image_url},caption:details},{quoted:m})   
 break
 
